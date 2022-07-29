@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-OnlineTestApplication<online-test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.online.test.onlinetest.OnlineTestApplication",
+            "projectName": "online-test",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AvionWebApplication<online-test>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.avion.web.avionweb.AvionWebApplication",
+            "projectName": "online-test",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
